@@ -63,7 +63,7 @@ def get_news_data(reddit):
 def get_smile_data(reddit):
     smile = reddit.subreddit("MadeMeSmile")
     posts = []
-    for post in smile.top("day", limit=10):
+    for post in smile.top("day", limit=5):
        posts.append("https://www.reddit.com" + post.permalink)
     return posts
 
