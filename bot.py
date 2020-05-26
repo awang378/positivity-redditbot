@@ -105,7 +105,7 @@ def run(reddit):
     last_utc = 0
 
     with open("utc.txt", "r") as f:
-        # retrieve the last UTC replied to
+        # Retrieve the last UTC replied to
         last_utc = f.read().split("\n")[-1]
 
     try:
@@ -155,7 +155,7 @@ def run(reddit):
 
     return str(last_utc)
 
-# parse json file
+# Parse JSON File
 def json_dump_and_parse(file_name, request):
     with open(file_name, "w+") as f:
         json.dump(request.json(), f, sort_keys = True, ensure_ascii = False, indent = 4)
