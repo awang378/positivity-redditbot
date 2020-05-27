@@ -8,7 +8,7 @@ I decided to create **positivity-redditbot** which was inspired by **[my_friendl
 
 Upon calling the bot, it will generate some wholesome Reddit posts that'll hopefully make you smile or lift up your day. The posts that the bot outputs updates daily. 
 
-I utilized [PRAW](https://praw.readthedocs.io/en/latest/#) (Python Reddit API Wrapper), [pushshift.io](https://pushshift.io/api-parameters/), and Python to create this bot. PRAW allowed my bot to aggregate wholesome subreddit content and respond to comments, while pushshift.io was used to monitor all Reddit comments for invocation of the bot. I also added basic automation functionality using a service called [Python Anywhere](www.pythonanywhere.com) which is a web hosting service for Python that will run the bot script every 24 hours. 
+I utilized [PRAW](https://praw.readthedocs.io/en/latest/#) (Python Reddit API Wrapper), [pushshift.io](https://pushshift.io/api-parameters/), and Python to create this bot. PRAW allowed my bot to aggregate wholesome subreddit content and respond to comments, while pushshift.io was used to monitor all Reddit comments for invocation of the bot. I also added basic automation functionality using a service called [Python Anywhere](https://www.pythonanywhere.com/) which is a web hosting service for Python that will run the bot script every 24 hours. 
 
 ## Setup
 You can try it out locally by cloning this repository.
